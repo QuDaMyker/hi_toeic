@@ -1,0 +1,29 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "[DEV] Hi Toeic",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "--dart-define",
+                "flavor=dev"
+            ]
+        },
+        {
+            "name": "Hi Toeic",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod",
+                "--dart-define",
+                "flavor=prod"
+            ]
+        },
+    ]
+}
