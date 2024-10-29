@@ -1,6 +1,6 @@
-# hi_toeic
+# Hi Toeic
 
-A new Flutter project.
+A new application for English Leaner
 
 ## Getting Started
 
