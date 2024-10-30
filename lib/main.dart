@@ -37,7 +37,7 @@ class HiToeic extends StatelessWidget {
           GlobalCupertinoLocalizations.delegate,
           DefaultWidgetsLocalizations.delegate
         ],
-        initialRoute: AppPages.INITIAL,
+        initialRoute: AppRoutes.splash,
       ),
     );
   }

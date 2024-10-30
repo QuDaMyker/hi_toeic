@@ -53,7 +53,7 @@ dependencies:
   google_fonts: ^6.2.1
   floating_action_bubble: ^1.1.4
   numberpicker: ^2.1.2
-  get_it: ^8.0.0
+  get_it: ^8.0.2
   flutter_tts: ^4.0.2
   youtube_explode_dart: ^2.3.2
   youtube_player_flutter: ^9.1.1

@@ -38,9 +38,9 @@ class SplashPage extends GetView<SplashController> {
               const SizedBox(
                 height: 10,
               ),
-              const Text(
-                'Ứng dụng học tiếng anh cho người Việt 🇻🇳/🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-                style: TextStyle(
+              Text(
+                'app_for_vietnamese'.tr,
+                style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
                   color: AppColors.primary40,
