@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:hi_toeic/app/page/splash_page/splash_binding.dart';
-import 'package:hi_toeic/app/page/splash_page/splash_page.dart';
 import 'package:hi_toeic/pages/home/bindings/home_binding.dart';
 import 'package:hi_toeic/pages/home/views/home_view.dart';
 import 'package:hi_toeic/pages/login/login_view.dart';
+import 'package:hi_toeic/pages/splash_page/splash_binding.dart';
+import 'package:hi_toeic/pages/splash_page/splash_page.dart';
 part 'app_routes.dart';
 
 class AppPages {
