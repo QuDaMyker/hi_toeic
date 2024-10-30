@@ -79,16 +79,19 @@ dev_dependencies:
   # lint rules
   flutter_lints: ^3.0.0
 
-flutter:
-  uses-material-design: true
-
 get_cli:
   sub_folder: false
 
+flutter:
+  uses-material-design: true
+
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/png/
     - assets/images/svg/
+    - assets/images/lottie/
+    - assets/images/png/
+    - assets/images/jpg/
+    - assets/grammar/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
