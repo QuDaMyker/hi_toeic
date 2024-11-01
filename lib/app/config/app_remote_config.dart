@@ -13,7 +13,7 @@ class AppRemoteConfig {
         ),
       );
 
-      final allowFetchRemoteConfig = await remoteConfig.fetchAndActivate();
+      await remoteConfig.fetchAndActivate();
 
       final allValues = remoteConfig.getAll();
       return RemoteConfigModel(

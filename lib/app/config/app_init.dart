@@ -7,6 +7,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hi_toeic/app/config/app_remote_config.dart';
 import 'package:hi_toeic/app/config/remoteConfig/configuration.dart';
+import 'package:hi_toeic/app/injection.dart';
 import 'package:hi_toeic/common/api/api_supabase.dart';
 import 'package:hi_toeic/firebase_options.dart';
 
@@ -49,5 +50,7 @@ class AppInit {
       DeviceOrientation.portraitUp,
       DeviceOrientation.portraitDown,
     ]);
+
+    configureDependencies();
   }
 }
